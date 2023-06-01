@@ -20,7 +20,8 @@ public class TestMolandSMItoPNG {
         IAtom atom = new Atom("C");
         System.out.println(atom);
         
-        DepictionGenerator dg = new DepictionGenerator().withSize(512, 512)
+        DepictionGenerator dg = new DepictionGenerator()
+        		.withSize(512, 512)
                 .withAtomColors();
         
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
